@@ -1,3 +1,8 @@
-baseURL = 'https://johnnoxas.github.io/anatomy-website/'
+baseURL = '/'
 languageCode = 'en-us'
 title = "John's Secret Library"
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
