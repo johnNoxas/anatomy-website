@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = "John's Secret Library"
-
+theme = "hugo-book"
 
 [caches]
   [caches.images]
