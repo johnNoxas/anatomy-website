@@ -1,8 +1,18 @@
-baseURL = '/'
+baseURL = 'http://johnNoxas.github.io/'
 languageCode = 'en-us'
 title = "John's Secret Library"
 theme = "hugo-book"
+refLinksErrorLevel = 'warning'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'attachments'
+target = 'static/attachments'
